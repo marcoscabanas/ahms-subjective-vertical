@@ -7,6 +7,11 @@ Assignment on the perception of the subjective vertical based on otolith &amp; s
 3. Only use the subjective vertical model, as defined in the slides.
 4. Two cases must be generated: One for low-frequency components @ 0.1 rad/sec., one for high-frequency components @ 5 rad/sec.
 
+## PLOTTING
+I tried to plot everything as is shown in the lecture slides: Two input graphs (specific force in Gs, angular velocity in degrees/sec), and one output graph (subjective vertical in Gs). I know that the semi-circular canals are sensitive to rotational ACCELERATION, but for clarity's sake I wanted to graph the rotational VELOCITY about each component - exactly like the slides in the lectures show.
+
+There are four graphs in total (each made of three subgraphs as explained above). Two graphs depict linear movement about the x-axis for the two different cases (0.1 rad/sec, 5 rad/sec) and two graphs depict tilt movement about the y-axis for the two different cases. In the case of tilt, I chose a maximum tilt angle of 10 degrees, but this can be adjusted in the script if you would like to check smaller or greater tilts.
+
 ## EXPLANATION OF SCRIPTS
 
 ### 1. x_movement.py
